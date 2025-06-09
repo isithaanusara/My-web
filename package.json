@@ -1,0 +1,30 @@
+{
+  "name": "sula-web",
+  "version": "0.0.1",
+  "description": "A multi-functional WhatsApp bot Web paircode.",
+  "main": "index.js",
+  "type": "module",
+  "engines" : { 
+    "npm" : ">=9.7.2",
+    "node" : ">=20.0.0"
+    },
+  "scripts": {
+    "start": "node index.js",
+    "stop": "echo 'No stop functionality (use Ctrl+C to stop)'",
+    "restart": "echo 'No restart functionality (use manual restart)'"
+  },
+  "author": "SULA-MD OWNER",
+  "license": "ISC",
+  "description": "sula-md pair",
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.17",
+    "qrcode": "^1.5.4",
+    "awesome-phonenumber": "7.2.0",
+    "pino": "9.5.0",
+    "phone" : "3.1.55",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "path": "^0.12.7",
+    "megajs": "^1.3.5"
+  }
+}
