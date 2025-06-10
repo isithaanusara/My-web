@@ -32,6 +32,9 @@ app.use('/code', code);
 app.use('/pair', async (req, res) => {
     res.sendFile(path.join(__dirname, 'main.html'));
 });
+app.use('/', async (req, res) => {
+    res.sendFile(path.join(__dirname, 'main.html'));
+});
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
